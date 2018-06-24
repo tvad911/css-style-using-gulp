@@ -29,6 +29,12 @@ article
                             display: block;
                             width: 100%;
                             margin: 0 0 30px 0;
+                            background: #f8f8f8;
+                            text-align: left;
+                            padding: 6px 10px 12px;
+                            border: 1px dotted #1e3a96;
+                            border-bottom: 2px solid #1e3a96;
+                            min-width: 125px;
                             .center{
                                 a{
                                     display: block;
@@ -45,7 +51,6 @@ article
                                 line-height: 150%;
                                 font-size: 16px;
                                 letter-spacing: -.4px;
-                                margin-left: 40px;
                                 li{
                                     list-style: circle;
                                     a{
@@ -196,11 +201,24 @@ article
                         }
 
                         div#toc_container{
+                            background: #f9f9f9;
+                            border: 1px solid #aaa;
+                            padding: 10px;
+                            margin-bottom: 1em;
+                            display: table;
+                            font-size: 95%;
                             p.toc_title{
-                                font-weight: bolder;
+                                text-align: center;
+                                font-weight: 700;
+                                margin: 0;
+                                padding: 0;
                             }
 
                             ul.toc_list{
+                                margin-top: 1em;
+                                background: 0 0;
+                                list-style-type: none;
+                                list-style: none;
                                 li{
                                     a{
                                         color: #007bb6;
@@ -233,6 +251,108 @@ article
                     }
                 }
             }
+        }
+    }
+}
+
+.content{
+    h1{
+        font-size: 2rem;
+        font-weight: 400;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+        line-height: 1.25;
+        padding-bottom: 25px;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #0093C2;
+        border-bottom: 1px #595454 solid;
+        margin-bottom: 1.5rem;
+        strong{
+            font-weight: bolder;
+        }
+
+        .smaller{
+            font-weight: 600;
+            font-size: 2rem;
+            border: 0 none;
+            padding: 0;
+        }
+    }
+
+    h3{
+        font-weight: 1.35rem;
+        font-weight: 700;
+        padding-bottom: .4rem;
+        border-bottom: 1px solid #dbe3e8;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    h4{
+        font-weight: 1.25rem;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        margin: 0 0 1rem 0;
+        strong{
+            font-weight: 700;
+        }
+    }
+
+    ul{
+        display: block;
+        margin-top: 0;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+        li{
+
+        }
+    }
+
+    ol{
+        li{
+
+        }
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
+        border: 0;
+        .has-border{
+            box-shadow: 0 0 0 4px #ccc;
+        }
+
+        .aligncenter {
+            display: block;
+            margin: 1rem auto;
+            height: auto;
+        }
+
+        .alignnone {
+            margin-left: 0;
+            margin-right: 0;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .content-editor{
+        p{
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
         }
     }
 }

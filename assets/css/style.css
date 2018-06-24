@@ -18,6 +18,12 @@ article.post .entry-wrapper .entry-summary .seriesmeta a {
   display: block;
   width: 100%;
   margin: 0 0 30px 0;
+  background: #f8f8f8;
+  text-align: left;
+  padding: 6px 10px 12px;
+  border: 1px dotted #1e3a96;
+  border-bottom: 2px solid #1e3a96;
+  min-width: 125px;
 }
 .single-post .site-content .content-area article.post .entry-content .seriesbox .center a {
   display: block;
@@ -33,7 +39,6 @@ article.post .entry-wrapper .entry-summary .seriesmeta a {
   line-height: 150%;
   font-size: 16px;
   letter-spacing: -0.4px;
-  margin-left: 40px;
 }
 .single-post .site-content .content-area article.post .entry-content .seriesbox ul.serieslist-ul li {
   list-style: circle;
@@ -162,8 +167,25 @@ article.post .entry-wrapper .entry-summary .seriesmeta a {
   display: block;
   margin: 10px auto 10px auto;
 }
+.single-post .site-content .content-area article.post .entry-content div#toc_container {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 1em;
+  display: table;
+  font-size: 95%;
+}
 .single-post .site-content .content-area article.post .entry-content div#toc_container p.toc_title {
-  font-weight: bolder;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.single-post .site-content .content-area article.post .entry-content div#toc_container ul.toc_list {
+  margin-top: 1em;
+  background: 0 0;
+  list-style-type: none;
+  list-style: none;
 }
 .single-post .site-content .content-area article.post .entry-content div#toc_container ul.toc_list li a {
   color: #007bb6;

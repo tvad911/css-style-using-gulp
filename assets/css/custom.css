@@ -93,7 +93,9 @@ article.post .entry-wrapper .entry-summary .seriesmeta a {
 .single-post .site-content .content-area article.post .entry-content b {
   font-weight: bold;
 }
-.single-post .site-content .content-area article.post .entry-content i,
+.single-post .site-content .content-area article.post .entry-content i {
+  font-style: italic;
+}
 .single-post .site-content .content-area article.post .entry-content em {
   font-style: italic;
 }

@@ -216,6 +216,15 @@ body.single-post article .entry-content blockquote {
 body.single-post article .entry-content blockquote p {
   margin: 1rem 0 0;
 }
+body.single-post article .entry-content div.junkie-alert {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border: 2px dashed azure;
+  background-color: #d9edf7;
+  border-color: #ff531a;
+  color: #000;
+}
 .page-entry article .entry-wrapper .entry-summary .seriesmeta {
   background-color: #E5F3FF !important;
   padding: 10px;
